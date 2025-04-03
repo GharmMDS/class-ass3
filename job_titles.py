@@ -5,7 +5,7 @@ import mysql.connector
 class LocalizationApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Employee Job Titles - Your Name")
+        self.root.title("Employee Job Titles - Ksawery Raszczak")
         self.create_widgets()
         self.populate_language_dropdown()
         self.db_connect()
